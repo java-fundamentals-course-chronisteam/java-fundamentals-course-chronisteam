@@ -10,7 +10,8 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 **Público objetivo:** Estudiantes de 12 a 17 años sin experiencia previa en programación  
 **Prerrequisitos:** Ninguno  
 **Herramientas necesarias:** Navegador web   
-**Repositorio de código fuente:** https://github.com/java-fundamentals-course-chronisteam/java-fundamentals-course-chronisteam
+**Repositorio de código fuente:** https://github.com/java-fundamentals-course-chronisteam/java-fundamentals-course-chronisteam  
+**Nota:** Este archivo `README` fue actualizado para registrar la configuración final del curso.
 
 ---
 
@@ -139,16 +140,172 @@ return respuesta;
 ### Lección 3: Entrada/salida con Scanner,Arreglos simples o cadenas. (- minutos)  
 **Responsable:**
 
-- **Descripción:**
+- **Descripción:** En este módulo presentamos cómo interactuar con el usuario en Java usando la consola. Primero recordamos la salida básica con System.out.println, luego introducimos la clase Scanner para leer datos del teclado, trabajando tanto con números (nextInt) como con texto (nextLine). Después, explicamos la idea de arreglos simples (int[] y String[]) con ejemplos de notas y materias favoritas, y finalmente combinamos Scanner + arreglos para guardar y mostrar los nombres de tres amigos. Todo se desarrolla con ejemplos cortos y sin bucles, pensado para estudiantes que recién comienzan a programar.
 
-- **Enlace del video:** https://www.youtube.com/watch?v=example-link1
+- **Enlace del video:** https://youtu.be/aToAE5dtBlw
 
-- **Editor online:**  (link del codigo que desarrollaste)
+- **Editor online:**  https://replit.com/@smbmontalvo/JavaCourse
 
 - **Consejos clave:** 
 
+Recuerda importar Scanner:
+Siempre que uses Scanner, la primera línea debe ser import java.util.Scanner;.
+
+Crea un solo Scanner por programa:
+Usa algo como Scanner teclado = new Scanner(System.in); al inicio del main y ciérralo al final con teclado.close();.
+
+Diferencia entre nextInt() y nextLine():
+
+nextInt() → lee números enteros.
+
+nextLine() → lee una línea completa de texto.
+Ten claro qué tipo de dato quieres leer antes de elegir el método.
+
+Los arreglos empiezan en 0:
+El primer elemento está en la posición 0, no en la 1.
+En un arreglo de tamaño 3, los índices válidos son 0, 1 y 2.
+
+Un arreglo solo guarda un tipo de dato:
+int[] solo números enteros, String[] solo cadenas de texto.
+No se pueden mezclar tipos distintos dentro del mismo arreglo.
+
+Piensa en el arreglo como “varios casilleros”:
+Imagina que cada posición del arreglo es un casillero donde guardas un valor.
+Eso ayuda a entender por qué usamos índices para acceder a cada elemento.
+
+Practica con ejemplos pequeños:
+Empieza con programas cortos (leer una edad, un nombre, 3 notas, 3 amigos) antes de intentar algo más grande.
+La idea es dominar bien Scanner y arreglos simples primero.
+
 - **Código inicial utilizado en la exposición:**
 ```
+// =======================
+// Archivo: HolaSalida.java
+// =======================
+public class HolaSalida {
+    public static void main(String[] args) {
+        System.out.println("Hola, bienvenido al curso de programación en Java");
+        System.out.println("Este es un ejemplo de salida por consola");
+    }
+}
+// Fin de HolaSalida.java
+
+
+// =======================
+// Archivo: LeerEdad.java
+// =======================
+import java.util.Scanner;
+
+public class LeerEdad {
+    public static void main(String[] args) {
+        // Creamos el Scanner para leer desde el teclado
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("¿Cuántos años tienes?");
+        int edad = teclado.nextInt(); // Leemos un número entero
+
+        System.out.println("Tú tienes " + edad + " años.");
+
+        teclado.close(); // Cerramos el Scanner
+    }
+}
+// Fin de LeerEdad.java
+
+
+// =======================
+// Archivo: LeerNombre.java
+// =======================
+import java.util.Scanner;
+
+public class LeerNombre {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("¿Cómo te llamas?");
+        String nombre = teclado.nextLine(); // Leemos una línea de texto completa
+
+        System.out.println("Hola " + nombre + ", ¡bienvenido a Java!");
+
+        teclado.close();
+    }
+}
+// Fin de LeerNombre.java
+
+
+// ===========================
+// Archivo: ArregloEnteros.java
+// ===========================
+public class ArregloEnteros {
+    public static void main(String[] args) {
+        // Arreglo de 3 notas
+        int[] notas = new int[3];
+
+        // Asignamos valores manualmente
+        notas[0] = 15;
+        notas[1] = 18;
+        notas[2] = 20;
+
+        System.out.println("Notas del estudiante:");
+        System.out.println("Primera nota: " + notas[0]);
+        System.out.println("Segunda nota: " + notas[1]);
+        System.out.println("Tercera nota: " + notas[2]);
+    }
+}
+// Fin de ArregloEnteros.java
+
+
+// ============================
+// Archivo: ArregloCadenas.java
+// ============================
+public class ArregloCadenas {
+    public static void main(String[] args) {
+        // Arreglo de 3 materias favoritas
+        String[] materias = new String[3];
+
+        materias[0] = "Matemática";
+        materias[1] = "Comunicación";
+        materias[2] = "Programación";
+
+        System.out.println("Materias favoritas:");
+        System.out.println("1: " + materias[0]);
+        System.out.println("2: " + materias[1]);
+        System.out.println("3: " + materias[2]);
+    }
+}
+// Fin de ArregloCadenas.java
+
+
+// ==================
+// Archivo: Main.java
+// ==================
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        String[] amigos = new String[3];
+
+        System.out.println("Ingrese el nombre de tu primer amigo: ");
+        amigos[0] = teclado.nextLine();
+
+        System.out.println("Ingrese el nombre de tu segundo amigo: ");
+        amigos[1] = teclado.nextLine();
+
+        System.out.println("Ingrese el nombre de tu tercer amigo: ");
+        amigos[2] = teclado.nextLine();
+
+        System.out.println("Tus amigos son: ");
+        System.out.println(amigos[0]);
+        System.out.println(amigos[1]);
+        System.out.println(amigos[2]);
+
+        teclado.close();
+    }
+}
+// Fin de Main.java
+
 -
 ```
 
@@ -293,8 +450,13 @@ public class Main {
 | Lección | Actividad                         | Editor Online / Enlace |
 |--------|------------------------------------|--------------------------|
 | 1      | Introducción a Java y la programación, sintaxis básica: variables, tipos de datos.                | https://replit.com/~ |
+<<<<<<< HEAD
 | 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/@matadorxdm/Java|
 | 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/~ |
+=======
+| 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/~ |
+| 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/@smbmontalvo/JavaCourse|
+>>>>>>> 22371c08634f4542b5937e180ef6bc980c97fd0f
 | 4      | Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación.    | https://replit.com/join/jzpobhqipb-schneider0104dc
 | 5      | Programa final POO, mejores practicas y errores comunes    | https://replit.com/~ |
   
