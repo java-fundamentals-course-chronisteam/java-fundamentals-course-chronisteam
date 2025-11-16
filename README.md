@@ -425,9 +425,7 @@ public class Main {
 ### Lección 5: Programa final POO, mejores practicas y errores comunes. (- minutos)  
 **Responsable:** Alejandro Nicolas Barturen Guzman
 
-- **Descripción:** En esta lección desarrollamos el proyecto final de la sección de Programación Orientada a Objetos: “Mi Alcancía Digital”, un programa sencillo que demuestra el uso de clases, objetos, atributos, métodos y encapsulación.
-
-Además, revisamos los errores más comunes que cometen los principiantes en Java —como comparar Strings con ==, exponer atributos públicos, y el uso de magic numbers— y mostramos la versión correcta siguiendo buenas prácticas, incluyendo código limpio, validaciones y nombres descriptivos.
+- **Descripción:** En esta lección desarrollamos el proyecto final de la sección de Programación Orientada a Objetos: “Mi Alcancía Digital”, un programa sencillo que demuestra el uso de clases, objetos, atributos, métodos y encapsulación. Además, revisamos los errores más comunes que cometen los principiantes en Java —como comparar Strings con ==, exponer atributos públicos, y el uso de magic numbers— y mostramos la versión correcta siguiendo buenas prácticas, incluyendo código limpio, validaciones y nombres descriptivos.
 
 La lección combina teoría, demostración en vivo y ejemplos comparativos de malas prácticas vs buenas prácticas, aplicados directamente al proyecto del Money Tracker.
 
