@@ -55,7 +55,7 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 
 - **Enlace del video:** https://youtu.be/aToAE5dtBlw
 
-- **Editor online:**  https://replit.com/join/stfpvmizza-smbmontalvo
+- **Editor online:**  https://replit.com/@smbmontalvo/JavaCourse
 
 - **Consejos clave:** 
 
@@ -362,7 +362,7 @@ public class Main {
 |--------|------------------------------------|--------------------------|
 | 1      | Introducción a Java y la programación, sintaxis básica: variables, tipos de datos.                | https://replit.com/~ |
 | 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/~ |
-| 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/join/stfpvmizza-smbmontalvo |
+| 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/@smbmontalvo/JavaCourse|
 | 4      | Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación.    | https://replit.com/join/jzpobhqipb-schneider0104dc
 | 5      | Programa final POO, mejores practicas y errores comunes    | https://replit.com/~ |
   
