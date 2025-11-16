@@ -470,7 +470,7 @@ public class Main {
 
 La lección combina teoría, demostración en vivo y ejemplos comparativos de malas prácticas vs buenas prácticas, aplicados directamente al proyecto del Money Tracker.
 
-- **Enlace del video:** https://www.youtube.com/watch?v=example-link1
+- **Enlace del video:** [Mini Proyecto y Errores Comunes](https://www.youtube.com/watch?v=WxFKylEuC4M)
 
 - **Editor online:** [JDoodle Proyecto Alcancia](https://www.jdoodle.com/ga/tINinqaBOJ0sIkDDMK2rAQ%3D%3D)
 
