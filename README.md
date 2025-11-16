@@ -423,19 +423,80 @@ public class Main {
 ---
 
 ### Lección 5: Programa final POO, mejores practicas y errores comunes. (- minutos)  
-**Responsable:**
+**Responsable:** Alejandro Nicolas Barturen Guzman
 
-- **Descripción:**
+- **Descripción:** En esta lección desarrollamos el proyecto final de la sección de Programación Orientada a Objetos: “Mi Alcancía Digital”, un programa sencillo que demuestra el uso de clases, objetos, atributos, métodos y encapsulación.
+
+Además, revisamos los errores más comunes que cometen los principiantes en Java —como comparar Strings con ==, exponer atributos públicos, y el uso de magic numbers— y mostramos la versión correcta siguiendo buenas prácticas, incluyendo código limpio, validaciones y nombres descriptivos.
+
+La lección combina teoría, demostración en vivo y ejemplos comparativos de malas prácticas vs buenas prácticas, aplicados directamente al proyecto del Money Tracker.
 
 - **Enlace del video:** https://www.youtube.com/watch?v=example-link1
 
-- **Editor online:**  (link del codigo que desarrollaste)
+- **Editor online:** [JDoodle Proyecto Alcancia](https://www.jdoodle.com/ga/tINinqaBOJ0sIkDDMK2rAQ%3D%3D)
 
-- **Consejos clave:** 
+- **Consejos clave:**
+- Usa encapsulación: atributos private, acceso mediante métodos.
+
+- Usa nombres claros y descriptivos para métodos (evitar add() → mejor ahorrar() o gastar()).
+
+- Evita valores quemados (“magic numbers”) — usa constantes con final.
+
+- Valida todas las entradas del usuario.
+
+- No compares Strings con == → usar .equals().
+
+- Usa constructores para iniciar valores por defecto.
+
+- Mantén el código corto, ordenado y comentado solo cuando sea necesario.
 
 - **Código inicial utilizado en la exposición:**
 ```
--
+- 
+public class Alcancia {
+    
+    private double saldo;
+
+
+    public Alcancia() {
+        this.saldo = 0.0;
+    }
+
+
+    public double verSaldo() {
+        return this.saldo;
+    }
+
+
+    public boolean ahorrar(double cantidad) {
+        if (cantidad <= 0) {
+            return false;
+        }
+        this.saldo += cantidad;
+        return true;
+    }
+
+
+    public boolean gastar(double cantidad) {
+        if (cantidad <= 0 || cantidad > this.saldo) {
+            return false;
+        }
+        this.saldo -= cantidad;
+        return true;
+    }
+
+
+    public static void main(String[] args) {
+        Alcancia miAlcancia = new Alcancia();
+        System.out.println("Saldo inicial: " + miAlcancia.verSaldo());
+
+        miAlcancia.ahorrar(10.0);
+        System.out.println("Después de ahorrar 10: " + miAlcancia.verSaldo());
+
+        miAlcancia.gastar(3.5);
+        System.out.println("Después de gastar 3.5: " + miAlcancia.verSaldo());
+    }
+}
 ```
 
 - **Práctica**: [Clic para programar](  )
