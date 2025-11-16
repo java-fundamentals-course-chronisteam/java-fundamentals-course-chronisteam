@@ -178,7 +178,7 @@ return respuesta;
 5. Pide otra `nota` y prueba todos los caminos del `if`.
 ---
 
-### Lección 3: Entrada/salida con Scanner,Arreglos simples o cadenas. (- minutos)  
+### Lección 3: Entrada/salida con Scanner,Arreglos simples o cadenas. (18:44 minutos)  
 **Responsable:**
 
 - **Descripción:** En este módulo presentamos cómo interactuar con el usuario en Java usando la consola. Primero recordamos la salida básica con System.out.println, luego introducimos la clase Scanner para leer datos del teclado, trabajando tanto con números (nextInt) como con texto (nextLine). Después, explicamos la idea de arreglos simples (int[] y String[]) con ejemplos de notas y materias favoritas, y finalmente combinamos Scanner + arreglos para guardar y mostrar los nombres de tres amigos. Todo se desarrolla con ejemplos cortos y sin bucles, pensado para estudiantes que recién comienzan a programar.
