@@ -27,24 +27,113 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 
 ---
 
-### Lección 2: Operadores y estructuras de control, métodos, funciones y parámetros. (- minutos)  
-**Responsable:**
 
-- **Descripción:**
+### Lección 2: Operadores y estructuras de control, métodos, funciones y parámetros. (12:40 minutos)  
+**Responsable: Carlos Alberto Lopez Goitia**
 
-- **Enlace del video:** https://www.youtube.com/watch?v=example-link1
+- **Descripción:** En esta lección practicamos operadores aritméticos `(+ - * / %)`, comparación `(>, ==)`, uso de booleanos, y estructuras de control: `if/else`, `else if`, `for`, `while`. Además, creamos y usamos métodos con y sin retorno: `saludar(String)` y `sumar(int,int)`.
 
-- **Editor online:**  (link del codigo que desarrollaste)
+- **Enlace del video:** https://youtu.be/RryyYpLgSpk
+
+- **Editor online:**  [Replit - Operadores y estructuras de control, métodos, funciones y parámetros](https://replit.com/@matadorxdm/Java)
 
 - **Consejos clave:** 
+  - Con enteros, `a / b` hace división entera (10/3 → 3). Para decimales: `(double)a / b`.
+  - `%` devuelve el resto (útil para saber si un número es par: n % 2 == 0).
+  - `if / else if / else` se evalúan en orden; la primera verdadera corta el flujo.
+  - En `for (int i = 1; i <= 10; i++)` cuida los límites.
+  - En `while` recuerda actualizar la variable de control.
+  - Un método `void` no retorna; si tiene tipo de retorno, debe usar `return`.
 
 - **Código inicial utilizado en la exposición:**
+Main.java
 ```
--
+public class Main {
+public static void main(String[] args) {
+int a = 10;
+int b = 3;
+
+int suma = a + b;
+int resta = a - b;
+int multiplicacion = a * b;
+int division = a / b;      // división entera
+int resto = a % b;         // módulo (resto)
+
+System.out.println("Suma: " + suma);
+System.out.println("Resta: " + resta);
+System.out.println("Multiplicación: " + multiplicacion);
+System.out.println("División: " + division);
+System.out.println("Resto: " + resto);
+
+boolean esMayor = a > b;
+boolean esIgual = a == b;
+
+System.out.println("¿a es mayor que b? " + esMayor);
+System.out.println("¿a es igual a b? " + esIgual);
+
+System.out.println("---------------------------------------");
+
+int nota = 15; 
+if (nota >= 11){
+  System.out.println("Aprobaste");
+} else {
+  System.out.println("Desaprobaste");
+}
+
+System.out.println("---------------------------------------");
+
+int edad = 16;
+if (edad >= 18){
+  System.out.println("Eres mayor de edad");
+} else if (edad >= 13){
+  System.out.println("Eres adolescente");
+} else {
+  System.out.println("Eres niño");
+}
+
+System.out.println("---------------------------------------");
+
+for (int i = 1; i <= 10; i++){
+  System.out.println("Vuelta numero: " + i);
+}
+
+System.out.println("---------------------------------------");
+
+int contador = 1;
+while (contador <= 3){
+  System.out.println("Intento: " + contador);
+  contador = contador + 1;
+}
+
+System.out.println("---------------------------------------");
+
+saludar("Snay");
+saludar("Alberto");
+
+int resultado = sumar(5, 7);
+System.out.println("La suma es: " + resultado);
+
+}
+
+static void saludar(String nombre){
+System.out.println("Hola " + nombre + ", bienvenido al curso de Java");
+}
+
+static int sumar(int a, int b){
+int respuesta = a + b;
+return respuesta;
+}
+
+}
+
 ```
 
-- **Práctica**: [Clic para programar]( https://replit.com/~ )
-
+- **Práctica**: [Clic para programar]( https://replit.com/@replit/Java?v=1)
+1. Cambia `a` y `b` y prueba `(double)a / b` para ver decimales.
+2. Crea `static int multiplicar(int x, int y)` y úsala en `main`.
+3. Escribe `static boolean esPar(int n)` y muestra “par”/“impar”.
+4. Con un `for`, imprime los números del 10 al 1.
+5. Pide otra `nota` y prueba todos los caminos del `if`.
 ---
 
 ### Lección 3: Entrada/salida con Scanner,Arreglos simples o cadenas. (- minutos)  
@@ -70,7 +159,7 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 ### Lección 4: Introducción a POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación. (12 minutos)  
 **Responsable: Schneider Carlos Alberto Delgado Carrasco**
 
-- **Descripción:**: En esta lección se aplica la idea de clase como *molde* y objeto como *ejemplar real*. Creamos la clase `Student` con atributos, luego instanciamos objetos en `Main`. Agregamos un **constructor** para iniciar los datos en una sola línea y aplicamos **encapsulación** con `private`, getters y un setter con validación para proteger la edad.
+- **Descripción:** En esta lección se aplica la idea de clase como *molde* y objeto como *ejemplar real*. Creamos la clase `Student` con atributos, luego instanciamos objetos en `Main`. Agregamos un **constructor** para iniciar los datos en una sola línea y aplicamos **encapsulación** con `private`, getters y un setter con validación para proteger la edad.
 
 - **Enlace del video:** https://www.youtube.com/watch?v=-_Zb4Olarh8
 
@@ -204,7 +293,7 @@ public class Main {
 | Lección | Actividad                         | Editor Online / Enlace |
 |--------|------------------------------------|--------------------------|
 | 1      | Introducción a Java y la programación, sintaxis básica: variables, tipos de datos.                | https://replit.com/~ |
-| 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/~ |
+| 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/@matadorxdm/Java|
 | 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/~ |
 | 4      | Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación.    | https://replit.com/join/jzpobhqipb-schneider0104dc
 | 5      | Programa final POO, mejores practicas y errores comunes    | https://replit.com/~ |
