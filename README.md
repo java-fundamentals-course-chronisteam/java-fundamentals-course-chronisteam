@@ -25,9 +25,50 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 - **Editor online:** https://www.youtube.com/watch?v=example-link1
 
 - **Consejos clave:** 
+### Lección 1: Introducción a Java y la programación, sintaxis básica: variables, tipos de datos. (5 minutos)
+**Responsable: Andreow Jomark Santiago Peña**
+
+- **Descripción:** Breve introducción sobre qué es programar, presentación del instructor y objetivo: entender variables y tipos básicos (int, double, String, boolean). Incluye demostración con el programa `HolaMundo` en Replit.
+
+- **Enlace del video:** https://youtu.be/z1kceDbTBvo
+
+- **Editor online:** https://replit.com/join/ewucjjgzne-andreows
+
+- **Introducción:**
+
+¡Hola a todos! Bienvenidos a la Lección 1 del curso de Fundamentos de Java para Principiantes.
+Mi nombre es Andreow Santiago. En los próximos minutos daremos nuestros primeros pasos en programación con Java.
+
+¿Alguna vez te preguntaste cómo le dices a una computadora exactamente qué hacer? Eso es programar.
+Java es un lenguaje muy usado para crear aplicaciones; en esta lección veremos los conceptos básicos que necesitas para empezar.
+
+Hoy aprenderemos qué es una variable y los tipos de datos más comunes en Java. Es una lección corta y práctica, así que ¡vamos a comenzar!
+
+- **Conclusiones clave**: 
+    - Java se usa para aplicaciones y juegos.
+    - Las variables son como cajitas que guardan datos.
+    - Los tipos de datos definen qué tipo de información puede guardar una variable.
+
+- **Código ejemplo:** `HolaMundo.java`
+```
+public class HolaMundo {
+  public static void main(String[] args) {
+    // Creamos nuestras variables
+    int edad = 16;
+    double altura = 1.70;
+    String nombre = "Ana";
+    boolean esEstudiante = true;
+
+    // Mostramos el contenido de las variables
+    System.out.println("Hola, me llamo " + nombre);
+    System.out.println("Tengo " + edad + " años.");
+    System.out.println("Mido " + altura + " metros.");
+    System.out.println("¿Soy estudiante? " + esEstudiante);
+  }
+}
+```
 
 ---
-
 
 ### Lección 2: Operadores y estructuras de control, métodos, funciones y parámetros. (12:40 minutos)  
 **Responsable: Carlos Alberto Lopez Goitia**
