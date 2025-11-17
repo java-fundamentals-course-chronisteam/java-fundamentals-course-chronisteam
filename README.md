@@ -13,6 +13,8 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 **Repositorio de código fuente:** https://github.com/java-fundamentals-course-chronisteam/java-fundamentals-course-chronisteam  
 **Nota:** Este archivo `README` fue actualizado para registrar la configuración final del curso.
 
+## Link de la app para poder practicar tu codigo: https://java-fundamentals-course-program-ch.vercel.app/
+
 ---
 
 ## Secuencia de la Lección
@@ -22,7 +24,7 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 
 - **Descripción:** Breve introducción sobre qué es programar, presentación del instructor y objetivo: entender variables y tipos básicos (int, double, String, boolean). Incluye demostración con el programa `HolaMundo` en Replit.
 
-- **Enlace del video:** https://youtu.be/z1kceDbTBvo
+- **Enlace del video:** https://youtu.be/prrAjmJ7wlY
 
 - **Editor online:** https://replit.com/join/ewucjjgzne-andreows
 
@@ -566,7 +568,7 @@ NRC 7391
 
 ### Enlaces de videos de las lecciones
 
-1. Lección 1: [Introducción a Java y la programación, sintaxis básica](https://youtu.be/z1kceDbTBvo)
+1. Lección 1: [Introducción a Java y la programación, sintaxis básica](https://youtu.be/prrAjmJ7wlY)
 2. Lección 2: [Operadores y estructuras de control, métodos, funciones y parámetros](https://youtu.be/RryyYpLgSpk)
 3. Lección 3: [Entrada/salida con Scanner, Arreglos simples o cadenas](https://youtu.be/aToAE5dtBlw)
 4. Lección 4: [Introducción a POO (clases, objetos, constructores), principios básicos](https://www.youtube.com/watch?v=-_Zb4Olarh8)
