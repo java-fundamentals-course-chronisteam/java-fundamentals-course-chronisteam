@@ -17,14 +17,6 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 
 ## Secuencia de la Lección
 
-### Lección 1: Introducción a Java y la programación, sintaxis básica: variables, tipos de datos. (- minutos)
-**Responsable:**
-
-- **Descripción:**
-
-- **Editor online:** https://www.youtube.com/watch?v=example-link1
-
-- **Consejos clave:** 
 ### Lección 1: Introducción a Java y la programación, sintaxis básica: variables, tipos de datos. (5 minutos)
 **Responsable: Andreow Jomark Santiago Peña**
 
@@ -67,6 +59,7 @@ public class HolaMundo {
   }
 }
 ```
+- **Práctica**: [Clic para programar]( https://replit.com/join/ewucjjgzne-andreows)
 
 ---
 
@@ -170,7 +163,8 @@ return respuesta;
 
 ```
 
-- **Práctica**: [Clic para programar]( https://replit.com/@replit/Java?v=1)
+- **Práctica**: [Clic para programar]( https://replit.com/@matadorxdm/Java)
+  
 1. Cambia `a` y `b` y prueba `(double)a / b` para ver decimales.
 2. Crea `static int multiplicar(int x, int y)` y úsala en `main`.
 3. Escribe `static boolean esPar(int n)` y muestra “par”/“impar”.
@@ -350,7 +344,7 @@ public class Main {
 -
 ```
 
-- **Práctica**: [Clic para programar]( https://replit.com/~ )
+- **Práctica**: [Clic para programar]( https://replit.com/@smbmontalvo/JavaCourse)
 
 ---
 
@@ -459,11 +453,11 @@ public class Main {
 }
 ```
 
-- **Práctica**: [Clic para programar]( https://replit.com/@replit/Java?v=1)
+- **Práctica**: [Clic para programar]( https://replit.com/@schneider0104dc/Java?v=1)
 
 ---
 
-### Lección 5: Programa final POO, mejores practicas y errores comunes. (- minutos)  
+### Lección 5: Programa final POO, mejores practicas y errores comunes. (9 minutos)  
 **Responsable:** Alejandro Nicolas Barturen Guzman
 
 - **Descripción:** En esta lección desarrollamos el proyecto final de la sección de Programación Orientada a Objetos: “Mi Alcancía Digital”, un programa sencillo que demuestra el uso de clases, objetos, atributos, métodos y encapsulación. Además, revisamos los errores más comunes que cometen los principiantes en Java —como comparar Strings con ==, exponer atributos públicos, y el uso de magic numbers— y mostramos la versión correcta siguiendo buenas prácticas, incluyendo código limpio, validaciones y nombres descriptivos.
@@ -538,7 +532,7 @@ public class Alcancia {
 }
 ```
 
-- **Práctica**: [Clic para programar](  )
+- **Práctica**: [Clic para programar]( https://www.jdoodle.com/ga/tINinqaBOJ0sIkDDMK2rAQ%3D%3D )
 
 ---
 
@@ -549,20 +543,16 @@ public class Alcancia {
 
 | Lección | Actividad                         | Editor Online / Enlace |
 |--------|------------------------------------|--------------------------|
-| 1      | Introducción a Java y la programación, sintaxis básica: variables, tipos de datos.                | https://replit.com/~ |
-<<<<<<< HEAD
+| 1      | Introducción a Java y la programación, sintaxis básica: variables, tipos de datos.                | https://replit.com/join/ewucjjgzne-andreows |
 | 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/@matadorxdm/Java|
-| 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/~ |
-=======
-| 2      | Operadores y estructuras de control, métodos, funciones y parámetros.           | https://replit.com/~ |
 | 3      | Entrada/salida con Scanner,Arreglos simples o cadenas.  | https://replit.com/@smbmontalvo/JavaCourse|
->>>>>>> 22371c08634f4542b5937e180ef6bc980c97fd0f
-| 4      | Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación.    | https://replit.com/join/jzpobhqipb-schneider0104dc
-| 5      | Programa final POO, mejores practicas y errores comunes    | https://replit.com/~ |
+| 4      | Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación.    | https://replit.com/join/jzpobhqipb-schneider0104dc |
+| 5      | Programa final POO, mejores practicas y errores comunes    | https://www.jdoodle.com/ga/tINinqaBOJ0sIkDDMK2rAQ%3D%3D |
   
 **¡Gracias por completar el curso!**
 ---
-## 👥 Elaboración
+
+## Elaboración
 Universidad Peruana de Ciencias Aplicadas
 Carrera de Ingeniería de Software
 Período 202520
@@ -571,18 +561,22 @@ NRC 7391
 **Nombre del equipo**: chronisteam
 **Líder del equipo**: Alejandro Nicolas Barturen Guzman
 **Integrantes del equipo**: Andreow Jomark Santiago Peña, Carlos Alberto Lopez Goitia, , Schneider Carlos Alberto Delgado Carrasco & Sebastian Martin Beingolea Montalvo
-**Fecha de entrega**: 16/11/25
 
-# Participant Performance Report  
-**Startup:** chronisteam
-**NRC:** 7391  
-**Entrega:** Trabajo Complementario – Course Plan  
-**Team Leader:** Alejandro Nicolas Barturen Guzman
+## Anexos
 
-| Ítem | Estudiante                                   | Responsabilidades                                                                                                              | Cumplió a tiempo | Cumplió a destiempo | Cumplió parcialmente | No cumplió | Calificación (20/16/13/07/00) |
-|------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------------|----------------------|------------------------|------------|-------------------------------|
-| 1    | Andreow Jomark Santiago Peña       | Lección 1 (Introducción a Java y la programación, sintaxis básica: variables, tipos de datos).       | X                |                      |                        |            | 20                            |
-| 2    | Calors Alberto Lopez Goitia   | Lección 2 (Operadores y estructuras de control, métodos, funciones y parámetros).             | X                |                      |                        |            | 20                            |
-| 3    | Sebastian Martin Beingolea Montalvo  | Lección 3 (Entrada/salida con Scanner,Arreglos simples o cadenas).               | X                |                      |                        |            | 20                            |
-| 4    | Schneider Carlos Alberto Delgado Carrasco  | Lección 4 (Introducción a la POO (clases, objetos, constructores), principios básicos: encapsulación, instanciación). | X | | | | 20 |
-| 5    | Alejandro Nicolas Barturen Guzman *(Líder)*  | Lección 5 (Programa final POO, mejores practicas y errores comunes). | X | | | | 20 |
+### Enlaces de videos de las lecciones
+
+1. Lección 1: [Introducción a Java y la programación, sintaxis básica](https://youtu.be/z1kceDbTBvo)
+2. Lección 2: [Operadores y estructuras de control, métodos, funciones y parámetros](https://youtu.be/RryyYpLgSpk)
+3. Lección 3: [Entrada/salida con Scanner, Arreglos simples o cadenas](https://youtu.be/aToAE5dtBlw)
+4. Lección 4: [Introducción a POO (clases, objetos, constructores), principios básicos](https://www.youtube.com/watch?v=-_Zb4Olarh8)
+5. Lección 5: [Programa final POO, mejores prácticas y errores comunes](https://www.youtube.com/watch?v=WxFKylEuC4M)
+
+### Enlaces de códigos fuente utilizados
+
+1. Lección 1: [Replit - HolaMundo.java](https://replit.com/join/ewucjjgzne-andreows)
+2. Lección 2: [Replit - Operadores y estructuras de control, métodos, funciones y parámetros](https://replit.com/@matadorxdm/Java)
+3. Lección 3: [Replit - Entrada/salida con Scanner, Arreglos simples o cadenas](https://replit.com/@smbmontalvo/JavaCourse)
+4. Lección 4: [Replit - POO Básico](https://replit.com/@schneider0104dc/Java?v=1)
+5. Lección 5: [JDoodle - Proyecto Alcancía](https://www.jdoodle.com/ga/tINinqaBOJ0sIkDDMK2rAQ%3D%3D)
+
