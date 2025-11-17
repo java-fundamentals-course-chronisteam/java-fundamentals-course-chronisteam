@@ -13,7 +13,9 @@ Los estudiantes aprenderán qué son las clases y los objetos, cómo definir atr
 **Repositorio de código fuente:** https://github.com/java-fundamentals-course-chronisteam/java-fundamentals-course-chronisteam  
 **Nota:** Este archivo `README` fue actualizado para registrar la configuración final del curso.
 
-## Link de la app para poder practicar tu codigo: https://java-fundamentals-course-program-ch.vercel.app/
+## Link de la app para poder practicar tu codigo:
+
+**link:** https://java-fundamentals-course-program-ch.vercel.app/
 
 ---
 
@@ -563,6 +565,7 @@ NRC 7391
 **Nombre del equipo**: chronisteam
 **Líder del equipo**: Alejandro Nicolas Barturen Guzman
 **Integrantes del equipo**: Andreow Jomark Santiago Peña, Carlos Alberto Lopez Goitia, , Schneider Carlos Alberto Delgado Carrasco & Sebastian Martin Beingolea Montalvo
+**Fecha de entrega**: 16-11-2025
 
 ## Anexos
 
